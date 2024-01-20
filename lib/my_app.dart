@@ -1,6 +1,7 @@
 import 'package:awesomeproject/awesome_curved_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:awesomeproject/my_home_page.dart';
+import 'package:awesomeproject/screen1.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -9,12 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AwesomeCurvedBar(),
+      home: const Screen1(),
     );
   }
 }
